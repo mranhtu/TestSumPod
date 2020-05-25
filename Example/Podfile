@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TestSumPod_Example' do
+  pod 'TestSumPod', :path => '../'
+
+  target 'TestSumPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
